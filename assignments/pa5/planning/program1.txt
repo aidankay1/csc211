@@ -1,0 +1,14 @@
+// AIDAN NOTE: under connection type 8, the 3 blobs in grid.txt become one big blob because they are touching diagonally
+
+* At starting cell, check either the four or eight surrounding cells, being mindful of the edges
+* Add each surrounding, filled cell to a shared set
+    * Pointer to set should be passed between calls
+* Repeat recursively for each surrounding cell
+* If all surrounding, filled cells already exist in the set, return
+* Number of cells in blob = number of elements in set
+
+Grid access:
+* grid is 8x8
+* we want to access the cell at row = 3, col = 4
+* would need to go to grid[19]
+* formula: grid[(total_rows * (row - 1)) + (col - 1)]

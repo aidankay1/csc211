@@ -1,0 +1,5 @@
+* create vector called blobs
+* loop through every cell in the grid
+    * if the cell is not in any blob already seen, call countCells()
+    * add resulting set of cells (the blob) to the vector
+* return size of vector

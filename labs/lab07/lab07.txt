@@ -1,0 +1,79 @@
+Aidan Kelly, Tyler Puglia, Connor Montague, Liam Dowden
+
+Question 1
+----------
+void square (int *a) {
+    (*a) *= *a;
+}
+
+Make sure you're dereferencing the varible you pass in (ex square(&int))
+
+Question 2
+----------
+void countEvens (int arr[], int *a) {
+    for (int i = 0 ; i < len ; i++) {
+        if (arr[i] % 2 == 0) {
+            (*a) += 1;
+        }
+    }
+}
+
+For an array of given length "len"
+
+Question 3
+----------
+35
+
+Question 4
+----------
+1: a=21, b=12
+2: a=21, b=22
+3: a=1, b=3
+
+Question 5
+----------
+void fillArray(int arr[][arrSize]) {
+	for (int i = 0; i < arrSize; i++) {
+		for (int j = 0; j < arrSize; j++) {
+			arr[i][j] = ((i + 1) * (j + 1));
+		}
+	}
+}
+
+Given arrSize == 3
+
+Question 6
+----------
+const int numStudents = 4;
+const int numExams = 3;
+
+void studentAvg(int arr[numStudents][numExams]) {
+    for (int i = 0; i < numStudents; i++) {
+        double avg = 0;
+        for (int j = 0; j < numExams; j++) {
+            avg += arr[i][j];
+        }
+        avg /= numExams;
+        std::cout << "Student " << i + 1 << ": " << avg << std::endl;
+    }
+}
+
+void examAvg(int arr[numStudents][numExams]) {
+    for (int i = 0; i < numExams; i++) {
+        double avg = 0;
+        for (int j = 0; j < numStudents; j++) {
+            avg += arr[j][i];
+        }
+        avg /= numStudents;
+        std::cout << "Exam " << i + 1 << ": " << avg << std::endl;
+    }
+}
+
+For a given filled array with size numStudents x numExams
+
+Question 7
+----------
+delete[] frees up all of the memory consumed by foo[]. If we were to omit the square brackets, only the first element of foo[] would be freed, resulting in a memory leak.
+
+Question 8
+----------

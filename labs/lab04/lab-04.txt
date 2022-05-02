@@ -1,0 +1,29 @@
+Mubariz Saeed, Matthew Hayes, Aidan Kelly, Tyler Puglia, Connor Montague, 
+
+Question 1:
+-----------
+Save the variable i to a different variable and then add 1 to that variable, then make a cout statement and print the new variable.
+
+Question 2:
+-----------
+Set the conditional to a parameter that the loop will never meet.
+
+Question 3:
+-----------
+This would output an infinite loop it would keep printing out the number 22, to fix this you would remove --i.
+
+Question 4:
+-----------
+This loop runs infinitely because there's nothing to change the "true" condition to false. You can change the "continue" to "break" and the loop will end when i == 10.
+
+Question 5:
+-----------
+The for loop has a semi colon after it so the loop does not execute the line below it.
+
+Question 6:
+-----------
+The while loop will never run because !i evaluates to false. Nothing will be printed to cout because i will never equal 10. To fix this, change !i to i in the loop definition
+
+Question 7:
+-----------
+140

@@ -1,0 +1,9 @@
+Aidan Kelly, Tyler Puglia, Connor Montague, Liam Dowden
+
+Question 1
+----------
+8
+
+Question 2
+----------
+The function call tree is very long as fib(n-1) gets called repeatedly and fib(n-2) also gets called several times for each call of fib(n-1)

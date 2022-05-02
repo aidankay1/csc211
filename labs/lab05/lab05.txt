@@ -1,0 +1,61 @@
+Question 1
+----------
+The value displayed by x is 32,767 because it was not assigned before the line and was taking a random value from memory.
+
+Question 2
+----------
+The program trace was not similar because we had assumed the value of x was 2
+
+Question 3
+----------
+The terminal gets an output of 3. This comes from result = 0 getting plugged into plus_one, which returns 1. Result now equals 1
+and it gets put into plus_two, where it again gets put into plus
+1 with an additional plus one passed into the parameter, and 1 + 1 + 1 = 3
+
+Question 4
+---------
+no, we saw this in class
+
+Question 5
+---------
+integer
+
+Question 6
+----------
+there are no parameters
+
+Question 7
+----------
+That means it can't use the return values so it returns nothing
+
+Question 8
+----------
+Void functions cannot use a return statement. If you try, the program won't compile.
+
+Question 9
+----------
+The run() function is not declared at the top of the file
+
+Question 10
+----------
+5 11 14
+
+Question 11
+----------
+q11.cpp
+
+Question 12
+----------
+q12.cpp
+
+Question 13
+----------
+q13.cpp
+
+Question 14
+----------
+q14.cpp
+
+Question 15
+----------
+q15.cpp

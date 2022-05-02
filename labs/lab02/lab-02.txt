@@ -1,0 +1,99 @@
+Connor Montague, Matthew Hayes, Liam Dowden, Aidan Kelly, Maxwell Krusz,, Mubariz Saeed
+
+Question 1:
+-----------
+Tying your shoes, making a peanut butter sandwich, brushing your teeth
+
+
+Question 2:
+-----------
+Internet Search, data sorting, math formulas, and sorting lists
+
+
+Question 3:
+-----------
+Set counter to zero
+As long as counter is less than 100:
+    check if the counter divided by 2 leaves a remainder of zero
+        print counter
+        add 1 to the counter
+    if the previous is not satisfied
+        add 1 to the counter
+Terminate
+
+
+Question 4:
+-----------
+Get number from user
+Store it in variable named num
+If num is 0 or 1
+    Print false
+Set integer a equal to 2 and add 1 as long as it is less than or equal to num
+    If num divided by a produces a remainder, print false
+    If num divided by a produces a remainder, print true
+Terminate program
+
+
+Question 5:
+-----------
+get number from the user and save as a variable called num
+create variable called total
+as long as num does not equal 0
+    add num - 1 to the total
+print total
+terminate program
+
+
+Question 6:
+-----------
+Get character to replace and store in variable called oldChar
+Get character to replace with and store in variable called newChar
+Get word and store in variable called word
+For each character in word
+    if current character is oldChar
+        set current character to newChar
+Terminate
+
+
+Question 7:
+-----------
+Get data/list of numbers (preferrably as an array)
+Initialize variable numMax
+Set maxNum to the first number
+Initialize counter variable and loop through array of numbers, iterating for every individual number/data point
+     If the current number on the counter is greater than numMax
+          Set numMax to the current number the counter is on
+Return value of numMax once the entire list has been itterated through
+Terminate program
+
+
+Question 8:
+-----------
+Get the list of number in the series
+Create a for loop
+Loop through the numbers in the series
+    for each number within the series subtract one and set it equal to a variable(list) to that position index
+return the new variable
+
+
+Question 9:
+-----------
+Answer would be 1 because the two numbers are classified as integers so even though the answer should be 1.75 because its an integer, it is rounded down to its floor which is 1.
+
+
+Question 10:
+-----------
+Int: ints were used to get and perform calculations with basic numbers that didn't need decimals
+Double: double was used in programs 1, 2, and 5. This is because those programs do calculations with and return decimals, which int can't do
+String: strings are useful for storing text data, such as someone's name. They are also good for performing iterations, as in program 3
+
+
+Question 11:
+-----------
+A compiler translates the human written code of a program into a language that the machine can understand so that the program can then be run.
+A compiler also checks the program for syntax errors and returns these to the user.
+
+
+Question 12:
+-----------
+G++

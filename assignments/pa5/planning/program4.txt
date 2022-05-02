@@ -1,0 +1,5 @@
+* calculate dimensions of image
+* loop through every pixel in image
+    * add r value to a total
+* divide r value by total pixels to get mean threshold
+* loop through every pixel, turning black if less than the threshold and white otherwise

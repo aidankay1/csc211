@@ -1,0 +1,53 @@
+Aidan Kelly, Tyler Puglia, Connor Montague
+
+Question 1
+----------
+9 chars (including the null terminator)
+
+Question 2
+----------
+n - 1
+
+Question 3
+----------
+String will keep extending into memory forever, reading garbage values
+
+Question 4
+----------
+Find the null terminator character '\0'
+
+Question 7
+----------
+#include <string>
+
+// Initialize my_string
+std::string my_string = "Hello, world";
+// Create an uninitialized char array (C style string)
+char world[6];
+// Copy the contents of my_string into world starting from index 7 ('w') and going for 6 characters (until '\0')
+my_string.copy(world, 6, 7);
+
+The first parameter of copy() is the string you want to copy the characters to, the second parameter is the length of characters you want to copy, and the last parameter is the index you wish to start copying from.
+
+Question 8
+----------
+#include <string>
+
+std::string str1 = "hello";
+std::string str2 = "world;
+str1.swap(str2);
+std::cout << str2 << str1;
+// this should output "helloworld"
+
+The swap function takes two parameters. The first parameter is the first string you're swapping, and the second parameter is the second string to be swapped. The function literally swaps the contents of each string into the other.
+
+Question 9
+----------
+#include <string>
+std::string str1 = "Ho world";
+std::string str2 = "$ell$";
+// Insert "ell" into "Ho world", producing "Hello world"
+str1.insert(1, str2, 1, 3);
+std::cout << str1 << std::endl;
+
+The insert function takes 4 parameters. The first is where something is getting inserted in the original string, the second is what string is having its contents inserted somewhere, the third is the starting point to take things to be inserted from the other string, and the final parameter is how many characters/elements are being inserted from the starting point defined by the third parameter.

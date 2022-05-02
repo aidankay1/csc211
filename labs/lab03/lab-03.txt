@@ -1,0 +1,42 @@
+Connor Montague, Aidan Kelly
+
+Question 1:
+    Binary: 16
+    Decimal: 10000
+    Hexadecimal: 65536
+
+Question 2:
+----------
+1962469850
+
+Question 3:
+----------
+6D5
+
+Question 4:
+----------
+1001110100
+
+Question 5:
+----------
+7A855A1
+
+Question 6:
+----------
+01110100111110001110100111011010
+
+Question 7:
+----------
+1781
+
+Question 8:
+----------
+Only one "=" in the condition of the if statement, it will cause the code to always output "Hello World" regardless of the value of test
+
+Question 9:
+----------
+There are no parantheses around the test condition, it will cause the code to always output "foo bar", and it can be resolved by enclosing "test == 10" in parantheses
+
+Question 10:
+----------
+There are no braces around the body of the if statement, which will cause only the first "Hello world" to be printed. It can be resolved by enclosing the body of the if statement in {}.
